@@ -1,0 +1,79 @@
+/* =============================================================================
+  RESETS
+============================================================================= */
+
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+/* =============================================================================
+  HTML, BODY
+============================================================================= */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.5;
+}
+
+/* =============================================================================
+  CONTENT
+============================================================================= */
+
+.content {
+  position: relative;
+  top: 30%;
+  z-index: 2;
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+}
+
+.content__heading {
+  margin-bottom: 24px;
+  color: rgb(39,39,39);
+  font-size: 44px;
+}
+
+.content__teaser {
+  margin-bottom: 24px;
+  color: rgb(89,89,89);
+  font-size: 22px;
+}
+
+.content__cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: rgb(255,60,100);
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px rgb(255,60,100);
+}
+
+/* =============================================================================
+  VIDEO
+============================================================================= */
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
